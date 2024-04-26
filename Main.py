@@ -3,6 +3,7 @@ import time as t
 
 ctk.set_default_color_theme("blue")
 ctk.set_appearance_mode("dark")
+#general class
 class GUI():
         def __init__(self):
             self.window = ctk.CTk()
